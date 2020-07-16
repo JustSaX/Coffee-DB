@@ -1,0 +1,15 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Coffee DB",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/sascha/android-studio/bin/studio.sh",
+  "server": {
+    "url": "http://192.168.1.38:8100",
+    "cleartext": true,
+    "originalUrl": "http://192.168.1.38:8100",
+    "originalCleartext": true
+  }
+}

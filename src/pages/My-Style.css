@@ -1,0 +1,11 @@
+ion-input {
+    --background: #428cff;
+}
+
+ion-item{ --border-color: #F00; }
+
+
+.your-img {
+    border-radius: 50px !important;
+    overflow: hidden;
+}

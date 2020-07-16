@@ -1,0 +1,74 @@
+Principles:
+- Don't repeat yourself!
+- Functions should only do one thing
+- Use classess only when state is needed
+
+How to structure my programm:
+-  keep all ionic elements together (e.g. in home only ionic elements)
+-  in cases ionic elements are created in functions or classess (e.g. by interation)
+    put them in a separate file
+
+
+Features
+- App bei der ich einzelne Bohnen und Röster speichern kann
+- App bei der ich meine einzelnen Espresso Settings speichern kann
+- Abb die mit Sprache bedient werden kann, vor allem das Brühen der einzelnen Espresso
+	- Vorsagen der Einstellung der letzten Brühung mit Ergebnis, nachdem die Bohne gesagt worden ist
+	- Evtl. auch sagen der Durchschnittseinstellungen mit Ergebnis
+- Main Window mit übersichtsbildern aber primär mit zwei Buttons:
+	- Kaffe zubereiten (falls eingestellt, per Sprache)
+	- Bohne anlegen
+- Bei jedem Datensatz soll Datum inkl hh:mm angelegt werden
+- Foto der bohnen aufnehmen
+- selbst auswählen was angezeigt wird (und in welcher Reihenfolge => evtl. später)
+
+Bohnen erfassen spec:
+- Bilder aufnehmen und Galerie anzeigen (bei Beanconqueror als aufnehmen oder anzeigen gelöst)
+- Als JSON-Datensatz speichern$
+- Bild bekommt ID als dateiname
+- KEINE Spracheingabe
+- ID, Bohne, Röster, Kommentar
+
+ToDo
+
+- learn github and load it up
+- Alle funktionen Testen und durchgehen
+- Standard Felder von Brews und Beans angleichen
+
+
+Done
+- Auswahl Feld bei Brühungen grau
+- Center menu button on home page
+- bei löschen von neuen Feldern dafür sorgen, dass es sofort gelöscht wird
+- abbrechen funktioniert noch nicht zuverlässig beim Anlegen neuer Bohnen
+- Beim laden von Beans oder Brews aus den Datensätzen nur die Spalten anzeigen, die auch in den Settings angegeben sind und in der Reihenfolge
+- Eigene Felder bei Bohne (z.b. welcher typ der Mischung) ??? hab ich das nicht schon...
+- Foto der Brühung
+- Splash Screen
+- Sorte vs Bohne (anlegen, anzeigen)
+- Icons in erstem Fenster (ausprobiert, war nicht schön)
+- Menüpunkt "voice control" deaktivieren
+- bei neuen "columns" nur erlauben falls es sie noch nicht gibt... ??? was? notwendig?
+- add default in Add-beans??? => wahrschienlich erledigt
+- Beim Anlegen text auch drunter wie beim Anzeigen
+- Beim Anzeigen von Beans/Brews nach Datum/Zeit sortieren (sollte wahrscheinlich über ID gehen)
+- Credits for Icons
+- if empty skip
+- Impressum => mein Github
+- License
+- Versionierung
+- Server aus json entfernen
+
+
+Later Stage
+- Automatisch ausfüllen der letzen Brühung
+- Englisch
+- Auswertung
+- Un distorted splash screen
+
+- Zubereitungsart
+- Beim Anzeigen von Beans/Brews immer einen Strich machen bei neuem Tag (evtl später)
+
+http://192.168.1.38:8100/_capacitor_file_/storage/emulated/0/Android/data/io.ionic.starter/files/data/1587319320507.jpeg
+
+ <IonItem><IonImg src='http://192.168.1.38:8100/_capacitor_file_/storage/emulated/0/Android/data/io.ionic.starter/files/data/1587319320507.jpeg'/></IonItem>

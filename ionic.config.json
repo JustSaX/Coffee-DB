@@ -1,0 +1,7 @@
+{
+  "name": "Coffee DB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

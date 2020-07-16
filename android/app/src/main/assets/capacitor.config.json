@@ -1,0 +1,9 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "Coffee DB",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "linuxAndroidStudioPath": "/home/sascha/android-studio/bin/studio.sh"
+}
