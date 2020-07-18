@@ -1,5 +1,5 @@
 export const beansDefault =  [
-    ['Bohne', true],
+    ['Sorte', true],
     ['Röster', true],
     ['Kommentar', true]
 ]
